@@ -23,8 +23,8 @@ This interactive Python tool lets you analyze **muscle-to-fat ratios** from a si
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/mri-fat-analysis.git
-cd mri-fat-analysis
+git clone https://github.com/KieranLR/mri-fat-analyzer.git
+cd mri-fat-analyzer
 
 # 2. Create and activate a virtual environment (recommended)
 python -m venv venv
@@ -55,7 +55,7 @@ An interactive window will open where you can explore fat density in the selecte
 
 ## 📁 Project Structure
 ```graphql
-mri-fat-analysis/
+mri-fat-analyzer/
 - ├── images/
 - │   ├── mri_image.png       # Your input MRI image
 - │   └── mask.png            # Binary mask of ROI
@@ -72,7 +72,7 @@ If you're using [Visual Studio Code](https://code.visualstudio.com/) (recommende
 
 - Launch **VS Code**
 - Go to **File → Open Folder...**
-- Select the root of the cloned repository (e.g., `mri-fat-analysis/`)
+- Select the root of the cloned repository (e.g., `mri-fat-analyzer/`)
 
 ### 2. Set Up the Python Environment
 
